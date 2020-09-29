@@ -1,0 +1,179 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap);
+@import "~bulma/bulma.sass";
+
+$font: Poppins;
+
+//Colors
+$dark-blue: #2b3d52;
+$orange: #ff9700;
+$white: #ffffff;
+
+html,
+body{
+    
+    font-family: $font;
+    color: $dark-blue;
+}
+
+//HEADER
+.banner{
+    background: $dark-blue !important;
+    height: 623px;
+}
+
+.navigation{
+    nav{
+        a{
+            margin: 0 20px;
+            text-decoration: none;
+            letter-spacing: 1.75px;
+            font-size: 0.75rem;
+            position: relative;
+            top: 30px;
+            color: $white;
+            font-family: $font;
+        }
+    }
+}
+
+
+
+
+.banner-text{
+    font-size: 2rem;
+    width: 100%;
+    position: relative;
+    top: 50px;
+    @media (max-width: 976px){
+        // width: 1280px;
+        // min-width: 1280px;
+        font-size: 1.5rem;
+    }
+}
+
+.goodtime{
+    color: $orange;
+}
+
+
+
+
+//SECTION TEXT
+.section-textOne{
+    font-size: 34px;
+    font-weight: 700;
+    margin: 240px 0 0 130px;
+    width: 52%;
+}
+
+.section-textTwo{
+    font-size: 34px;
+    font-weight: 700;
+    margin: 240px 0 0 130px;
+    width: 74%;
+}
+
+.section-textThree{
+    font-size: 34px;
+    font-weight: 700;
+    margin: 190px 0 0 130px;
+    width: 64%;
+}
+
+.section-textFour{
+    font-size: 34px;
+    font-weight: 700;
+    margin: 170px 0 0 10px;
+    width: 90%;
+}
+
+//SECTION IMAGES
+.img-one{
+    // margin: 50px 0 0 100px;
+    position: relative;
+    top: 50px;
+    right: 45px;
+}
+
+.img-two{
+    // margin: 50px 200px 0 0;
+    position: relative;
+    top: 50px;
+    right: 20px;
+}
+
+.img-three{
+    // margin: 50px 200px 0 0;
+    position: relative;
+    top: 50px;
+    right: 20px;
+}
+
+.img-four{
+    // margin: 50px 200px 0 0;
+    position: relative;
+    bottom: 10px;
+    // right: 20px;
+}
+
+
+
+//FOOTER
+
+.footer{
+    background: $dark-blue;
+}
+
+.app-banner{
+    // margin: 0px 0 0 120px;
+    // text-align: center;
+
+}
+
+.footer-text{
+    color: $white;
+    width: 41%;
+    position: relative;
+    top: 40px;
+    left: 240px;
+    font-size: 25px;
+}
+
+.how{
+    font-weight: bold;
+}
+
+.box{
+    color: $white;
+    height: 90px;
+    width: 420px;
+    position: relative;
+    top: 28px;
+}
+
+.block-text{
+    color: $dark-blue;
+    width: 70%;
+    position: relative;
+    left: 50px;
+}
+
+
+
+.title{
+    color: $orange;
+    // margin: 43px 0;
+}
+
+.sub-title{
+    color: $orange;
+}
+
+.company{
+    margin: 117px 0;
+}
+
+.info{
+    margin: 117px 0;
+}
+
